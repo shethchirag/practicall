@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.lexend-deca-<uniquifier> {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+}
+
+:root {
+  --secondary-color: #00baba;
+  --font-primary-color: #010311;
+  --font-secondary-color: #808188;
+  --title-color: #ffffff;
+}
+
+.extend-team-btn {
+  margin-left: 11.25rem;
+  width: 191px;
+  height: 48px;
+  gap: 0px;
+  border: 1px solid var(--secondary-color);
+  opacity: 0px;
+  background-color: var(--secondary-color);
+  border-radius: 0%;
+  outline: none;
+}
+.blog-link-style {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.406rem;
+  text-align: center;
+  color: var(--font-secondary-color);
+  margin-left: 5.5rem;
+}
+.get-hire-style {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.313rem;
+  text-align: center;
+  color: var(--title-color);
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+
+.header-style {
+  position: fixed;
+  background: transparent;
+  width: 100%;
+  z-index: 100;
+}
+
+.hero-section {
+  background: linear-gradient(122.51deg, #060f66 3.32%, #020628 96.59%);
+  height: 39rem;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+h1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64.8px;
+  letter-spacing: -0.02em;
+  color: var(--title-color);
+}
+h1 span {
+  color: var(--secondary-color);
+}
+.hero-p-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: var(--title-color);
+  width: 48.5rem;
+  height: 4.25rem;
+  opacity: 0.44;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section-style {
+  margin-top: -80px;
+}
+.card-style {
+  width: 216px;
+  height: 83px;
+  top: 152px;
+  left: 1062px;
+  gap: 0px;
+  opacity: 0px;
+}
+.card-img-style {
+  width: 73px;
+  height: 81px;
+  top: 153px;
+  left: 1063px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: var(--secondary-color);
+}
+.header-style.scrolled {
+  background-color: #060f665c;
+}
+
+.image-style {
+  position: absolute;
+  top: -195px;
+}
+.image-style img {
+  width: 1296px;
+}
+.random-div-for-h {
+  min-height: 25rem;
+}
+.count-text-style h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--font-primary-color);
+}
+.count-text-style > h2 > span {
+  color: var(--secondary-color);
+}
+
+.count-text-style-p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--font-secondary-color);
+}
