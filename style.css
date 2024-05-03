@@ -342,7 +342,7 @@ b {
   border-radius: 2px !important;
   border: 1px solid var(--tab-card-text) !important;
   max-width: 356px !important;
-  max-height: 450px !important;
+  height: 450px !important;
   transition: box-shadow 0.3s ease;
 }
 
@@ -621,10 +621,76 @@ input[type="radio"]:checked {
 @media (max-width: 991.98px) {
   .image-style {
     position: relative;
-    top: 0;
+    top: -90px;
   }
   .header-style {
     background: #050c4e;
+  }
+  .certi-image-style::before {
+    display: none;
+  }
+  .certi-image-style::after {
+    display: none;
+  }
+  .random-div-for-h {
+    min-height: 0rem;
+  }
+  .tabs {
+    margin-bottom: 3rem;
+    a {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: var(--font-secondary-color);
+      padding: 12px 0;
+      border-bottom: 2px solid var(--font-secondary-color);
+      background: transparent;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 22px;
+
+      &:hover,
+      &.active {
+        background: var(--secondary-color);
+        color: var(--font-primary-color);
+        font-weight: 600;
+      }
+    }
+  }
+  .consulting-process-text > h2 {
+    width: 100%;
+  }
+  .consulting-process-text > p {
+    max-width: 356px;
+    max-height: 81px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--font-secondary-color);
+    padding-bottom: 0.8rem;
+  }
+  #slider {
+    width: 66%;
+    height: 40vw;
+    margin: 10px auto;
+    transform-style: preserve-3d;
+  }
+  .speed-buss-text > h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3.45rem;
+  }
+  .tab-card-text-style {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .tab-card-style {
+    height: 343px !important;
+  }
+  .tab-card-btn-style {
+    width: 310px;
   }
 }
 @media (max-width: 767.98px) {
@@ -758,12 +824,6 @@ input[type="radio"]:checked {
   }
   .random-div-for-h {
     min-height: 8rem;
-  }
-  .certi-image-style::before {
-    display: none;
-  }
-  .certi-image-style::after {
-    display: none;
   }
 }
 
