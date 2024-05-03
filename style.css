@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
 
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.lexend-deca-<uniquifier> {
-  font-family: "Lexend Deca", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
 * {
   margin: 0;
   padding: 0;
@@ -616,14 +606,7 @@ p.card-text.courbusiness-card-text-style {
   background-color: #050c4f;
   color: var(--title-color);
 }
-/* .tab-card-style:hover .borderchange-style {
-  border: 1px dashed var(--font-primary-color) !important;
-  transition: color 0.3s ease;
-} */
-/* .tab-card-style:hover .img-box {
-  background-color: var(--secondary-color);
-  transition: color 0.3s ease;
-} */
+
 .tab-card-style:hover .card-text-style {
   font-weight: 700;
   transition: color 0.3s ease;
